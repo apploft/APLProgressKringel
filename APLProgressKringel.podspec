@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '8.0'
 
-  s.source       = { :git => "git@github.com:apploft/APLProgressKringel.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/apploft/APLProgressKringel.git", :tag => s.version.to_s }
 
   s.source_files  = 'Classes/*.{h,m}'
   s.resources     = 'Classes/*.xib'
